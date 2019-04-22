@@ -1,2 +1,4 @@
 *.png
 !colortab/*.png
+
+*.zip
