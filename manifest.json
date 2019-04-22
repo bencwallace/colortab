@@ -1,0 +1,26 @@
+{
+	"manifest_version": 2,
+	"name": "Colorful Empty New Tab",
+	"version": "1.0",
+	"description": "Changes the new tab page to a blank page with a background color of your choice.",
+    "icons": {
+    	"16": "color-wheel16.png",
+    	"128": "color-wheel128.png"
+    },
+    "browser_action": {
+    	"default_popup": "popup.html"
+    },
+    "author": "Benjamin Wallace",
+    "background": {
+    	"persistent": false,
+    	"scripts": ["background.js"]
+    },
+	"chrome_url_overrides": {
+		"newtab": "newtab.html"
+    },
+    "options_ui": {
+    	"page": "popup.html",
+    	"open_in_tab": false
+    },
+    "permissions": ["storage"]
+}
