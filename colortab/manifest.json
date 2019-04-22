@@ -18,6 +18,7 @@
 	"chrome_url_overrides": {
 		"newtab": "newtab.html"
     },
+    "homepage_url": "https://github.com/bencwallace/colortab",
     "options_ui": {
     	"page": "popup.html",
     	"open_in_tab": false
